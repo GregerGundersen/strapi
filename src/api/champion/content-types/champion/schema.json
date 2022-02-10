@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "champions",
+  "info": {
+    "singularName": "champion",
+    "pluralName": "champions",
+    "displayName": "champion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
