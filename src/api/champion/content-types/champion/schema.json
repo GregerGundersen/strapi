@@ -4,7 +4,8 @@
   "info": {
     "singularName": "champion",
     "pluralName": "champions",
-    "displayName": "champion"
+    "displayName": "champion",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,16 +16,26 @@
       "type": "string"
     },
     "img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "trait": {
+      "type": "string"
+    },
+    "set": {
+      "type": "integer"
     }
   }
 }
