@@ -15,16 +15,6 @@
     "name": {
       "type": "string"
     },
-    "img": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
     "description": {
       "type": "string"
     },
@@ -35,6 +25,12 @@
       "type": "string"
     },
     "set": {
+      "type": "integer"
+    },
+    "url": {
+      "type": "string"
+    },
+    "cost": {
       "type": "integer"
     }
   }
